@@ -112,7 +112,7 @@ In the above image you can see that we have same name for all 3 servers and to o
     ami           = var.ami
     instance_type = var.size
     tags = {
-      Name = "demo-server-${terraform.workspace}"
+      Name = "example-server-${terraform.workspace}"
     } 
   }
   ```
